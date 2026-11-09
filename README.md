@@ -184,7 +184,6 @@ Run these four commands on Router0 and again on Router1. After about a minute (u
  
 ![Successful pings from PC1](screenshots/ping.png)
  
-![Route table after the link failure](screenshots/failover.png)
  
 ## 7. Repository contents
  
@@ -195,14 +194,13 @@ rip-enterprise-network/        (branch: main)
 └── screenshots/
     ├── topology.png
     ├── ip-route.png
-    ├── ping.png
-    └── failover.png
+    └── ping.png
 ```
  
 ## 8. How to run
  
 1. Install Cisco Packet Tracer (same version as noted above, or newer).
-2. Download [RIP-Enterprise-Network.pkt](RIP-Enterprise-Network.pkt) and open it.
+2. Download [RIP Enterprise Network.pkt](RIP Enterprise Network.pkt) and open it.
 3. Click a router, open the **CLI** tab and run `show ip route`.
 4. Click a PC, open **Desktop > Command Prompt** and ping a PC in another LAN.
 ## 9. Deployment
