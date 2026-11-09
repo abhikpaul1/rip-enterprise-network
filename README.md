@@ -4,7 +4,7 @@
 - **Course:** Computer Networks Lab (PBL)
 - **Tool:** Cisco Packet Tracer (version: 9.0.1.0858)
 - **Protocol:** RIP version 2
-- **Team:** Abhik Paul (), Susmita
+- **Team:** Abhik Paul (BWU/BTS/24/599), Susmita Karmoker Saraboni (BWU/BTS/24/585), Saikat Datta (BWU/BTS/24/578), Koyel Sultana (BWU/BTS/24/573), Patatri Mukherjee (BWU/BTS/24/594)
 - **Live page:** https://abhikpaul1.github.io/rip-enterprise-network/
 ## 1. Aim
  
@@ -200,7 +200,7 @@ rip-enterprise-network/        (branch: main)
 ## 8. How to run
  
 1. Install Cisco Packet Tracer (same version as noted above, or newer).
-2. Download [RIP Enterprise Network.pkt](RIP Enterprise Network.pkt) and open it.
+2. Download [RIP-Enterprise-Network.pkt](RIP-Enterprise-Network.pkt) and open it.
 3. Click a router, open the **CLI** tab and run `show ip route`.
 4. Click a PC, open **Desktop > Command Prompt** and ping a PC in another LAN.
 ## 9. Deployment
