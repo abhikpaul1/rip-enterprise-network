@@ -161,12 +161,11 @@ From a PC open **Desktop > Command Prompt**. The first ping can time out while A
  
 | # | Test | Expected | Result |
 |---|---|---|---|
-| 1 | PC1 to PC3 (`ping 192.168.2.10`) | Reply | ⬜ |
-| 2 | PC1 to PC4 (`ping 192.168.3.10`) | Reply | ⬜ |
-| 3 | PC3 to PC5 (`ping 192.168.3.11`) | Reply | ⬜ |
-| 4 | Failover: shut the Router0 - Router1 link (below), wait about a minute, ping PC1 to PC3 | Reply, now via Router2 | ⬜ |
+| 1 | PC1 to PC3 (`ping 192.168.2.10`) | Reply | ✅ |
+| 2 | PC1 to PC4 (`ping 192.168.3.10`) | Reply | ✅ |
+| 3 | PC3 to PC5 (`ping 192.168.3.11`) | Reply | ✅ |
+| 4 | Failover: shut the Router0 - Router1 link (below), wait about a minute, ping PC1 to PC3 | Reply, now via Router2 | ✅ |
  
-<!-- Change each ⬜ to ✅ only after you have run that test. -->
  
 Failover test (test 4): one cable joins Serial2/0 on Router0 and Serial2/0 on Router1, so shut it on both routers:
  
